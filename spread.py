@@ -107,7 +107,10 @@ def list_run(rid):
 
 def show(rid, i):
     r = json.load(open(f"{RUNS}/{rid}/outputs/{i:03d}.json"))
-    r.pop("content", None) and print(r.pop("content")) or print(json.dumps(r, indent=1))
+    content = r.pop("content", "")
+    print(content if content else "(empty)")
+    print("--- metadata ---")
+    print(json.dumps(r, indent=1))
 
 def diff(rid_a, i, rid_b, j):
     a = json.load(open(f"{RUNS}/{rid_a}/outputs/{i:03d}.json")).get("content", "")
