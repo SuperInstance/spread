@@ -1,0 +1,20 @@
+{
+ "i": 0,
+ "seed": 1,
+ "model": "glm-5.3",
+ "content": "The under-appreciated failure is co-adaptation: the builder optimizes the judge's quirks rather than the task, and because the judge sees only the builder's outputs, it loses calibration at the same time \u2014 scores keep climbing while measuring mutual agreement, not quality. People expect simple reward hacking; they miss that the discriminator itself atrophies inside the closed loop. The fix is anchoring the judge with a frozen, hidden calibration set of reference items scored every round, providing an external baseline the builder can never influence.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 875,
+  "completion_tokens_details": {
+   "reasoning_tokens": 766
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 951
+ },
+ "latency_s": 16.71,
+ "model_served": "glm-5.3"
+}

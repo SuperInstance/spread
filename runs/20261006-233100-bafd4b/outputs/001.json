@@ -1,0 +1,20 @@
+{
+ "i": 1,
+ "seed": 2,
+ "model": "glm-5.3",
+ "content": "The failure mode is judge capture: the builder doesn't learn the task, it learns the discriminator's fixed biases and blind spots, so scores climb steadily while true quality stagnates or rots \u2014 and the rising scores actively mask the degradation. The fix is to split the loop: the builder gets feedback from one judge, but advancement is decided by a held-out judge (or held-out tasks) whose scores it never sees, so it can't be optimized against.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 453,
+  "completion_tokens_details": {
+   "reasoning_tokens": 358
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 529
+ },
+ "latency_s": 10.99,
+ "model_served": "glm-5.3"
+}

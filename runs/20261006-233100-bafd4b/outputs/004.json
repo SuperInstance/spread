@@ -1,0 +1,20 @@
+{
+ "i": 4,
+ "seed": 5,
+ "model": "glm-5.3",
+ "content": "The scores become a private language between the two agents: the discriminator calibrates to the builder's trajectory, the builder optimizes for the discriminator's evolving rubric, and after enough rounds the score measures the pair's mutual drift rather than the work's quality \u2014 improvement looks real on the graph while decoupling from any external standard. Prevent it by anchoring the scale: periodically inject frozen reference items with known quality into the round, scored identically to the builder's output, so discriminator drift is measured and the signal stays tied to ground truth.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 520,
+  "completion_tokens_details": {
+   "reasoning_tokens": 407
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 596
+ },
+ "latency_s": 11.28,
+ "model_served": "glm-5.3"
+}

@@ -1,0 +1,16 @@
+{
+ "run_id": "20261006-233100-bafd4b",
+ "state_hash": "bafd4b695ef932c1",
+ "vary": "seed",
+ "models": [
+  "glm-5.3"
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "created": "2026-10-07T07:31:00Z"
+}

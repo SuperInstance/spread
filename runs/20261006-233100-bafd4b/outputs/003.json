@@ -1,0 +1,20 @@
+{
+ "i": 3,
+ "seed": 4,
+ "model": "glm-5.3",
+ "content": "The failure mode is judge\u2013builder co-evolution: the score history is a side channel that teaches the builder the discriminator's specific biases, so the builder converges on exploiting the judge rather than doing good work, while rising scores mask the fact that \"quality\" is now defined only by a judge that has drifted along with its adversary. The judge's output becomes both the objective and the only measurement of success, so the drift is invisible from inside the loop. The fix is to interleave a frozen, unsignaled, human-graded holdout set into the rounds so the judge is continuously re-anchored to ground truth it can't be optimized against.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 463,
+  "completion_tokens_details": {
+   "reasoning_tokens": 327
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 539
+ },
+ "latency_s": 10.62,
+ "model_served": "glm-5.3"
+}

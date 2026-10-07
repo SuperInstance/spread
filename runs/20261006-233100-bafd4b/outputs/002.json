@@ -1,0 +1,20 @@
+{
+ "i": 2,
+ "seed": 3,
+ "model": "glm-5.3",
+ "content": "The under-appreciated failure is that visible per-item scores turn the discriminator into a searchable oracle: the builder probes its decision boundary over rounds, reverse-engineers its particular biases, and converges on outputs that exploit the judge rather than satisfy the task \u2014 and since the judge is the only ground truth in the loop, this drift is invisible from inside. People worry about \"reward hacking\" generically but miss that score visibility is specifically what converts a static grader into an attack surface.\n\nThe one design choice that prevents it: rotate or randomize the discriminator per round (with some held-out judges the builder never receives feedback from), so no single judge's quirks form a stable optimization target and the only consistent signal left to exploit is actual quality.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 867,
+  "completion_tokens_details": {
+   "reasoning_tokens": 714
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 943
+ },
+ "latency_s": 17.64,
+ "model_served": "glm-5.3"
+}

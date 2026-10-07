@@ -1,0 +1,16 @@
+{
+ "name": "discriminator-decompose",
+ "model": "glm-5.3",
+ "system_prompt": "You are a terse systems designer. Answer in plain prose, no preamble.",
+ "history": [
+  {
+   "role": "user",
+   "content": "A discriminator agent judges a builder agent's work across rounds. The builder can see its past scores. In two or three sentences, what is the most under-appreciated failure mode of this setup, and what one design choice prevents it?"
+  }
+ ],
+ "params": {
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_tokens": 300
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "i": 1,
+ "seed": 2,
+ "model": "glm-5.3",
+ "content": "",
+ "finish_reason": "length",
+ "usage": {
+  "completion_tokens": 300,
+  "completion_tokens_details": {
+   "reasoning_tokens": 300
+  },
+  "prompt_tokens": 76,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 376
+ },
+ "latency_s": 10.23,
+ "model_served": "glm-5.3"
+}
